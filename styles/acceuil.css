@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    letter-spacing: 0.5px;
+}
+body {
+  background-image: url(../image/background.png);
+  background-size: cover;
+  height: 100vh;
+}
+header{
+  box-shadow: black 0 0 5px 0;
+  padding: 20px;
+  margin-bottom: 50px;
+  backdrop-filter: blur(5px);
+}
+header span{
+  display: block;
+  display: flex;
+  justify-content: center;
+  color: white; 
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+header a{
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  scale: 1.7;
+  transition: 200ms;
+}
+header a:hover{
+  scale: 2;
+}
+#membre-groupe{
+  font-size: 1.5em;
+}
+#messageAcceuil{
+    box-shadow: rgb(19, 19, 39) 0 0 1px 0;
+    backdrop-filter: blur(5px);
+}
+#messageAccueil p{
+  font-size: 1.5em;
+  text-align: center;
+  backdrop-filter: blur();
+  border-radius: 20px;
+  width: 80%;
+  justify-self: center;
+  padding: 10px;
+  backdrop-filter: blur(50px);
+    box-shadow: rgb(19, 19, 39) 0 0 5px 0;
+}
+#messageAccueil p span{
+  font-size: 1.8em;
+}
+#start{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+#start a{
+  font-size: 3em;
+  padding: 5px;
+  transition: 300ms;
+}
+#start a:hover{
+      transform: scale(1.2);
+      letter-spacing: 10px;
+}
+footer{
+  backdrop-filter: blur(10px);
+  width: 100%;
+}
+footer span{
+  color: white;
+  display: block;
+  font-size: 1.5em;
+}
+#membre-groupe{
+  justify-self: center;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+footer div{
+  display: flex;
+  justify-content: space-around;
+  width: 94%;
+}
